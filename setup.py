@@ -25,11 +25,11 @@ setup(name='monet.calendar.star',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'monet.calendar.event',
+          'monet.calendar.extensions'
       ],
       entry_points="""
       # -*- Entry points: -*-
-
       [z3c.autoinclude.plugin]
       target = plone
       """,

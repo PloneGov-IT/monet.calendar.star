@@ -26,7 +26,7 @@ setup(name='monet.calendar.star',
       install_requires=[
           'setuptools',
           'monet.calendar.event',
-          'monet.calendar.extensions'
+          'monet.calendar.extensions',
           'monet.calendar.portlet',
       ],
       entry_points="""

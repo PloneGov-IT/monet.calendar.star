@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1.0dev'
+version = '1.1.0'
 
 setup(name='monet.calendar.star',
       version=version,
@@ -27,6 +27,7 @@ setup(name='monet.calendar.star',
           'setuptools',
           'monet.calendar.event',
           'monet.calendar.extensions'
+          'monet.calendar.portlet',
       ],
       entry_points="""
       # -*- Entry points: -*-

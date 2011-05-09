@@ -6,6 +6,7 @@
 
   <include package="monet.calendar.event" />
   <include package="monet.calendar.extensions" />
+  <include package="monet.calendar.portlet" />  
 
   <!-- Register the installation GenericSetup extension profile -->
   <genericsetup:registerProfile

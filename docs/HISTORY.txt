@@ -4,7 +4,8 @@ Changelog
 1.1.0 (Unreleased)
 ------------------
 
-* Added documentation on portlet and ``monet.calendar.portlet`` [keul]
+* Added to the suite the new ``monet.calendar.portlet`` product [keul]
+* updated documentation [keul]
 
 1.0.0 (2011-03-18)
 ------------------

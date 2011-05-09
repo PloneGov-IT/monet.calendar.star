@@ -3,8 +3,8 @@
 Introduction
 ============
 
-The *monet.calendar.star* suite is a complete event managing solution for Plone, inspired by
-needs of the `City of Modena`__. Is widely used for managing all kind of events.
+The *Monet Calendar* suite (also *monet.calendar.star*) is a complete event managing solution for Plone,
+inspired by needs of the `City of Modena`__. Is widely used for managing all kind of events.
 
 __ http://www.comune.modena.it/
 

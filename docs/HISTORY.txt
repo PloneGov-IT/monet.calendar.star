@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.0 (Unreleased)
+------------------
+
+* Added documentation on portlet and ``monet.calendar.portlet`` [keul]
+
 1.0.0 (2011-03-18)
 ------------------
 

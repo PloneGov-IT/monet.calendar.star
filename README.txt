@@ -108,7 +108,27 @@ Plone4Artists Calendar integration
 ----------------------------------
 
 The suite were originally done for working with p4a.calendar. The compatibility code is still there,
-but has not been tested in latests releases. 
+but has not been tested in latests releases.
+
+Monet calendar and portlets
+---------------------------
+
+The suite (in facts: ``monet.calendar.extensions``) replace the Plone calendar with a new one.
+The new one is unable to display (fill with colors) events normally, because the new features likes
+*cadence* is very expensive.
+
+The calendar will simply display links to the nearest calendar; links that perform a search in that day.
+
+Also: a new portlet product has been added: `monet.calendar.portlet`__. This portlet 
+gives you a way to select a calendar section in the site, the display it in a portlet.
+
+__ http://pypi.python.org/pypi/monet.calendar.portlet
+
+.. Note::
+   The portlet is designed to be used with `collective.portletpage`__. Using it in a narrow column portlet
+   must be fixed by your Plone theme!
+
+__ http://pypi.python.org/pypi/collective.portletpage
 
 Dependencies tree
 =================
@@ -117,7 +137,7 @@ You can freely install single components of the suite, that are:
 
 * monet.recurring_event
 
-  * p4a.plonecalendar (optional, see below)
+  * p4a.plonecalendar (optional, see above)
 
   * rt.calendarinandout
 
@@ -126,6 +146,8 @@ You can freely install single components of the suite, that are:
 * monet.calendar.event
 
 * monet.calendar.extensions
+
+* monet.calendar.portlet (optional)
 
 Requirements
 ============

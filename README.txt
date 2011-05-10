@@ -62,7 +62,7 @@ Use multiple calendar: "Calendar root" sections
 
 Using again the "*Calendar menu*" you can also mark folder as "Calendar root".
 This is useful when using a Plone filled of subsites, where you can have a *main calendar* that
-look at every event in the site, but also additional subcalendars (inside many calendar roots).
+look at every event in the site, but also additional sub-calendars (inside many calendar roots).
 
 When a calendar perform searches inside a Calendar root, it will only look for events inside the
 calendar root itself
@@ -77,7 +77,7 @@ New calendar portlet
 --------------------
 
 The calendar construction is expensive, and not good to be used in a portlet of the site, where is
-visibile (in the worst case, also not cached) in every page of the site.
+visible (in the worst case, also not cached) in every page of the site.
 
 When you install the monet.calendar.extension product, the calendar portlet is replaced with a version
 that:
@@ -85,8 +85,8 @@ that:
 * not show anymore events in a specific day
 * every cell is a link that perform a day-search in the nearest calendar
 
-"Nearest calendar" mean that is you are in inside a "calendar root" section you will be moved to
-the calendar of that section.
+"*Nearest calendar*" mean that if the visitor is inside a "calendar root" section he will be moved to
+the calendar of that section, otherwise a global calendar section will be used.
 
 You can also install an additional portlet from the `monet.calendar.portlet`__ product. This portlet 
 gives you a way to select a calendar section in the site, then display it in a portlet (in the same way
@@ -109,11 +109,11 @@ the time of event.
 
 __ http://pypi.python.org/pypi/monet.calendar.event
 
-Example:
+Examples:
 
 * Morning
 * Afternoon
-* Evenengin
+* Evening
 * *YouEventType*
 
 Plone4Artists Calendar integration

@@ -4,7 +4,7 @@ Introduction
 ============
 
 The *Monet Calendar* suite (also *monet.calendar.star*) is a complete event managing solution for Plone,
-inspired by needs of the `City of Modena`__. Is widely used for managing all kind of events.
+inspired by needs of the `City of Modena`__. Is widely used there for managing all kind of events.
 
 __ http://www.comune.modena.it/
 
@@ -21,12 +21,16 @@ We want to give to Plone an event type that:
 * the days of weeks where really the event take place
 * be able to manage special days where the event *don't* take place
 * a lot of additional text information
+* an advanced search feature
 
 See the `monent.calendar.event page`__ for know how to configure the event.
 
 __ http://pypi.python.org/pypi/monet.calendar.event
 
-Additionally one or more Plone folder can be marked as "*Calendar section*" in a new "Calendar" menu.
+Searching events
+----------------
+
+Additionally one (at least) or more Plone folders can be marked as "*Calendar section*" in a new "Calendar" menu.
 
 .. figure:: http://keul.it/images/plone/monet.calendar.suite-1.0.0-01.png
    :alt: The new Calendar menu
@@ -60,12 +64,14 @@ The form can be used to expand the search to more than one day, showing a summar
 Use multiple calendar: "Calendar root" sections
 -----------------------------------------------
 
-Using again the "*Calendar menu*" you can also mark folder as "Calendar root".
+Using again the "*Calendar menu*" you can also mark folders as "Calendar root".
 This is useful when using a Plone filled of subsites, where you can have a *main calendar* that
 look at every event in the site, but also additional sub-calendars (inside many calendar roots).
 
 When a calendar perform searches inside a Calendar root, it will only look for events inside the
-calendar root itself
+calendar root itself.
+
+A calendar outside a Calendar root looks for all events in the site.
 
 .. figure:: http://keul.it/images/plone/monet.calendar.suite-1.0.0-05.png
    :alt: Search results on multiple days
@@ -127,7 +133,7 @@ Dependencies tree
 
 You can freely install single components of the suite, that are:
 
-* monet.recurring_event
+* monet.calendar.event
 
   * p4a.plonecalendar (optional, see above)
 
@@ -135,25 +141,29 @@ You can freely install single components of the suite, that are:
 
     * collective.js.jqueryui
 
-* monet.calendar.event
-
 * monet.calendar.extensions
 
 * monet.calendar.portlet (optional, see above)
+
+* monet.calendar.location (optional, and not covered by this package.
+  It contains Modena's and italian specific patch... you probably don't need this. Really)
 
 Requirements
 ============
 
 The monet.calendar.star solution works onto:
 
-* Plone 3.2
 * Plone 3.3
 * Plone 4
+* Plone 4.1
 
-Under Plone 4 the integration with the "Sunburst theme" is not perfect.
-See also `#11474`__.
+Migrating from older release
+============================
 
-__ http://dev.plone.org/plone/ticket/11474
+If you have a Plone site where you used and old version of ``monet.calendar.event`` (older than 0.4)
+you probably need to add to your buildout the historical `monet.recurring_event`__ (0.7 or better.)
+
+__ http://pypi.python.org/pypi/monet.recurring_event/0.7.0
 
 Credits
 =======

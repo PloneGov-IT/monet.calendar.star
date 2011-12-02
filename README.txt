@@ -122,12 +122,6 @@ Examples:
 * Evening
 * *YouEventType*
 
-Plone4Artists Calendar integration
-----------------------------------
-
-The suite were originally done for working with p4a.calendar. The compatibility code is still there,
-but has not been tested in latests releases.
-
 Dependencies tree
 =================
 

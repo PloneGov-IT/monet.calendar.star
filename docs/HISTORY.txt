@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.0 (Unreleased)
+1.2.0 (2011-12-06)
 ------------------
 
 * Updated documentation to note that `monet.recurring_event`__ is not needed

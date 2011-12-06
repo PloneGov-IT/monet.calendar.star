@@ -106,6 +106,14 @@ __ http://pypi.python.org/pypi/monet.calendar.portlet
 
 __ http://pypi.python.org/pypi/collective.portletpage
 
+New collection criteria
+-----------------------
+
+You can use the `monet.calendar.criteria`__ for beeing able to create collection that looks for events
+taking care of event's filters parameter.
+
+__ http://pypi.python.org/pypi/monet.calendar.criteria
+
 Special event types
 -------------------
 
@@ -129,8 +137,6 @@ You can freely install single components of the suite, that are:
 
 * monet.calendar.event
 
-  * p4a.plonecalendar (optional, see above)
-
   * rt.calendarinandout
 
     * collective.js.jqueryui
@@ -138,6 +144,8 @@ You can freely install single components of the suite, that are:
 * monet.calendar.extensions
 
 * monet.calendar.portlet (optional, see above)
+
+* monet.calendar.criteria
 
 * monet.calendar.location (optional, and not covered by this package.
   It contains Modena's and italian specific patch... you probably don't need this. Really)

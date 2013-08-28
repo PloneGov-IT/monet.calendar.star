@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.3.0 (Unreleased)
+------------------
+
+* Moved on GitHub [keul]
+* Plone 4.3 supported [keul]
+
 1.2.0 (2011-12-06)
 ------------------
 

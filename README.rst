@@ -153,19 +153,12 @@ You can freely install single components of the suite, that are:
 Requirements
 ============
 
-The monet.calendar.star solution works onto:
+The monet.calendar.star solution has been tested on those Plone versions:
 
 * Plone 3.3
-* Plone 4
 * Plone 4.1
-
-Migrating from older release
-============================
-
-If you have a Plone site where you used and old version of ``monet.calendar.event`` (older than 0.4)
-you probably need to add to your buildout the historical `monet.recurring_event`__ (0.7 or better.)
-
-__ http://pypi.python.org/pypi/monet.recurring_event/0.7.0
+* Plone 4.2
+* Plone 4.3
 
 Credits
 =======
@@ -196,7 +189,7 @@ Authors
 
 This product was developed by RedTurtle Technology team.
 
-.. image:: http://www.redturtle.net/redturtle_banner.png
+.. image:: http://www.redturtle.it/redturtle_banner.png
    :alt: RedTurtle Technology Site
-   :target: http://www.redturtle.net/
+   :target: http://www.redturtle.it/
 

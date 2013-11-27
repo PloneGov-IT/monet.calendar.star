@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3.0.dev0'
+version = '2.0.0.dev0'
 
 setup(name='monet.calendar.star',
       version=version,
@@ -12,7 +12,6 @@ setup(name='monet.calendar.star',
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 3.3",
         "Framework :: Plone :: 4.0",
         "Framework :: Plone :: 4.1",
         "Framework :: Plone :: 4.2",
@@ -31,6 +30,7 @@ setup(name='monet.calendar.star',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'Products.CMFPlone>4.0b1',
           'monet.calendar.event>=0.5.0dev',
           'monet.calendar.extensions>=0.10.0dev',
           'monet.calendar.portlet',

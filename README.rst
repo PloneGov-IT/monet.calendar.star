@@ -18,7 +18,7 @@ We want to give to Plone an event type that:
 
 * hide totally the "time" data (managed as simple text)
 * give a closed (but configurable) set of type of events
-* the days of weeks where really the event take place
+* the days of weeks where the event take place
 * be able to manage special days where the event *don't* take place
 * a lot of additional text information
 * an advanced search feature
@@ -155,7 +155,6 @@ Requirements
 
 The monet.calendar.star solution has been tested on those Plone versions:
 
-* Plone 3.3
 * Plone 4.1
 * Plone 4.2
 * Plone 4.3

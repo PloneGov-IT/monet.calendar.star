@@ -155,7 +155,6 @@ Requirements
 
 The monet.calendar.star solution has been tested on those Plone versions:
 
-* Plone 4.1
 * Plone 4.2
 * Plone 4.3
 
@@ -191,4 +190,3 @@ This product was developed by RedTurtle Technology team.
 .. image:: http://www.redturtle.it/redturtle_banner.png
    :alt: RedTurtle Technology Site
    :target: http://www.redturtle.it/
-

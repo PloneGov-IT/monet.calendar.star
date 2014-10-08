@@ -12,8 +12,6 @@ setup(name='monet.calendar.star',
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 4.0",
-        "Framework :: Plone :: 4.1",
         "Framework :: Plone :: 4.2",
         "Framework :: Plone :: 4.3",
         "Programming Language :: Python",
@@ -31,9 +29,9 @@ setup(name='monet.calendar.star',
       install_requires=[
           'setuptools',
           'Products.CMFPlone>4.0b1',
-          'monet.calendar.event>=0.5.0dev',
-          'monet.calendar.extensions>=0.10.0dev',
-          'monet.calendar.portlet',
+          'monet.calendar.event>=0.5.0',
+          'monet.calendar.extensions>=0.10.0',
+          'monet.calendar.portlet>=0.4.0',
           'monet.calendar.criteria',
       ],
       entry_points="""
